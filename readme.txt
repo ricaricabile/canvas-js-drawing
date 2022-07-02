@@ -9,7 +9,7 @@ After that is finish open parts.html in your web browser it should show you two 
 and a gray area where you will be able to draw.
 
 Click on any of the tools on the first row and your desired color on the second row,
-then hover your mouse on the gray area and click your mouse. A rectangle, circle, line, 
+then hover your mouse on the gray area and click it. A rectangle, circle, line, 
 strokes will be drawn based on the tools and colors you choose.
 
 also see DrawingApp.png it is application screenshot you should yield the same
