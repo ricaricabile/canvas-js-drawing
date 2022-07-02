@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+  <link href ="fontawesome-free-6.1.1-web/css/all.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="teststyle.css">
+  <meta charset=utf-8 />
+  </head>
+  <body style="
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+  ">
+
+<div class="container" style="width: 50%; z-index:0;">
+    <div class="btn-group btn-group-justified" style="width: 50%; margin-left: 13%;">
+        <a href="#" id="box" class="btn btn-primary outline shapes" style="background-color: white"><i class="far fa-square"></i></a>
+        <a href="#" id="circle" class="btn btn-primary outline shapes" style="background-color: white"><i class="far fa-circle"></i></a>
+        <a href="#" id="line" class="btn btn-primary outline shapes" style="background-color: white"><i class="fas fa-grip-lines"></i></a>
+        <a href="#" id="pen" class="btn btn-primary outline shapes" style="background-color: white"><i class="fas fa-pencil-alt"></i></a>
+    </div>
+    <div class="btn-group btn-group-justified" style="width: 50%; margin-left: 13%">
+        <a href="#" id="white" class="btn btn-primary colors" style="background-color: white"></a>
+        <a href="#" id="black" class="btn btn-primary colors" style="background-color: black"> </a>
+        <a href="#" id="silver" class="btn btn-primary colors" style="background-color: silver"></a>
+        <a href="#" id="red" class="btn btn-primary colors" style="background-color: red"> </a>
+        <a href="#" id="yellow" class="btn btn-primary colors" style="background-color: yellow"></a>
+        <a href="#" id="green" class="btn btn-primary colors" style="background-color: green"> </a>
+        <a href="#" id="blue" class="btn btn-primary colors" style="background-color: blue"></a>
+        <a href="#" id="violet" class="btn btn-primary colors" style="background-color: violet"> </a>
+    </div>
+</div>
+
+
+    <div class="layer" style=" z-index:0" >
+        <canvas id="front" style="position: absolute; z-index: 0;">
+        </canvas>
+        <canvas id="shapes" style="position: absolute; z-index: 0;">
+        </canvas>
+        <canvas id="nav" style="position: absolute; z-index: 0;">
+        </canvas>
+    </div>
+
+
+    <script type="text/javascript" src = "test.js"></script>
+  </body>
+  </html>

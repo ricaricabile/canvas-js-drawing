@@ -1,0 +1,28 @@
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+
+
+.outline{
+        	color:black;
+        }
+.posRight {
+	 position: absolute;
+	 width: 100px;
+	 /* background: 	; */
+	 height: 95%;
+	 /* top:39px; */
+	 left: 0px;
+	 overflow-y: hidden;
+	 overflow-x: hidden;
+}
+.layer {
+	 position: absolute;
+	 background-color: #FFFFFF; 
+	 height: 100%;
+	 width: 100%;
+	 /* top:0; */
+	 /*margin-top: 39px;*/
+	 overflow: hidden;
+}
